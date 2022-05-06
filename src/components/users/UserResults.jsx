@@ -12,7 +12,6 @@ function UserResults() {
 
 const fetchUsers = async () => {
     const response = await fetch(`https://api.github.com/users`)
-    console.log(response)
     const data = await response.json()
    
     setUsers(data)
