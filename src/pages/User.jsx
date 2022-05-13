@@ -47,6 +47,36 @@ function User() {
                         <figure>
                             <img src={avatar_url} alt="profile pic" />
                         </figure>
+                        {/* <div className='card-body mt-20 mb-0 justify-end'>
+                            <h2 className='card-title mt-40 mb-0'>
+                                {name}
+                            </h2>
+                            <p className='mb-0'>
+                                {login}
+                            </p>
+                        </div> */}
+                    </div>
+                </div>
+                <div className='col-span-2 mb-6'>
+                    <h1 className='text-3xl card-title'>
+                        {name}
+                        <div className='ml-2 mr-1 badge badge-success'>
+                            {type}
+                        </div>
+                        {hireable && (
+                            <div className='mx-1 badge badge-info'>
+                                Hireable
+                            </div>
+                        )}
+                    </h1>
+                    <p className='mt-2 mb-2'>
+                        {login}
+                    </p>
+                    <p>{bio}</p>
+                    <div className='mt-4 card-actions'>
+                        <a href={html_url} target='_blank' rel='noreferrer' className='btn btn-outline'>
+                            Visit Github Profile
+                        </a>
                     </div>
                 </div>
             </div>
