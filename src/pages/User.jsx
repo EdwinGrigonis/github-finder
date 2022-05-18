@@ -83,9 +83,7 @@ function User() {
                     <div className='w-full rounded-lg shadow-md bg-base-100 stats'>
                     {location && (
                         <div className='stat'>
-                            <div className='stat-title text-md'>
-                                Location
-                            </div>
+                            <div className='stat-title text-md'>Location</div>
                             <div className='text-lg stat-value'>
                                 {location}
                             </div>
@@ -93,9 +91,7 @@ function User() {
                     )}
                     {blog && (
                         <div className='stat'>
-                            <div className='stat-title text-md'>
-                                Website
-                            </div>
+                            <div className='stat-title text-md'>Website</div>
                             <div className='text-lg stat-value'>
                                 <a href={websiteUrl}
                                 target="_blank"
@@ -108,9 +104,7 @@ function User() {
                     )}
                      {twitter_username && (
                         <div className='stat'>
-                            <div className='stat-title text-md'>
-                                Twitter
-                            </div>
+                            <div className='stat-title text-md'>Twitter</div>
                             <div className='text-lg stat-value'>
                                 <a href={`https://twitter.com/${twitter_username}`}
                                 target="_blank"
@@ -122,6 +116,19 @@ function User() {
                         </div>
                     )}
                 </div>
+                </div>
+            </div>
+            <div className='w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats'>
+                <div className='stat'>
+                    <div className='stat-figure text-secondary'>
+                        <FaUsers className='text-3xl md:text-5xl' />
+                    </div>
+                    <div className='stat-title pr-5'>
+                        Followers
+                    </div>
+                    <div className='stat-value pr-5 text-3xl md:4xl'>
+                        {followers}
+                    </div>
                 </div>
             </div>
         </div>
