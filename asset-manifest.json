@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/EdwinGrigonis/github-finder.git/static/css/main.73debd9d.css",
+    "main.js": "/EdwinGrigonis/github-finder.git/static/js/main.30d361e2.js",
+    "static/media/spinner.gif": "/EdwinGrigonis/github-finder.git/static/media/spinner.f45670187584c9cdbc53.gif",
+    "index.html": "/EdwinGrigonis/github-finder.git/index.html",
+    "main.73debd9d.css.map": "/EdwinGrigonis/github-finder.git/static/css/main.73debd9d.css.map",
+    "main.30d361e2.js.map": "/EdwinGrigonis/github-finder.git/static/js/main.30d361e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73debd9d.css",
+    "static/js/main.30d361e2.js"
+  ]
+}
