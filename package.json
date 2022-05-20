@@ -1,8 +1,8 @@
 {
   "name": "github-finder",
-  "homepage": "https://github.com/EdwinGrigonis/github-finder.git",
+  "homepage": "https://edwingrigonis.github.io/github-finder/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
