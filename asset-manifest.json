@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/edwingrigonis/github-finder.git/static/css/main.73debd9d.css",
-    "main.js": "/edwingrigonis/github-finder.git/static/js/main.fddcab0a.js",
-    "static/media/spinner.gif": "/edwingrigonis/github-finder.git/static/media/spinner.f45670187584c9cdbc53.gif",
-    "index.html": "/edwingrigonis/github-finder.git/index.html",
-    "main.73debd9d.css.map": "/edwingrigonis/github-finder.git/static/css/main.73debd9d.css.map",
-    "main.fddcab0a.js.map": "/edwingrigonis/github-finder.git/static/js/main.fddcab0a.js.map"
+    "main.css": "/github-finder/static/css/main.73debd9d.css",
+    "main.js": "/github-finder/static/js/main.bfa66642.js",
+    "static/media/spinner.gif": "/github-finder/static/media/spinner.f45670187584c9cdbc53.gif",
+    "index.html": "/github-finder/index.html",
+    "main.73debd9d.css.map": "/github-finder/static/css/main.73debd9d.css.map",
+    "main.bfa66642.js.map": "/github-finder/static/js/main.bfa66642.js.map"
   },
   "entrypoints": [
     "static/css/main.73debd9d.css",
-    "static/js/main.fddcab0a.js"
+    "static/js/main.bfa66642.js"
   ]
 }
